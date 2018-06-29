@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Richmond Response</title>
+    <script type="text/javascript" src="~/Scripts/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="~/Scripts/screenfull.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/handlebars.min-latest.js"></script>
+    <script type="text/javascript" src="~/Scripts/App/main.js"></script>
+    @Styles.Render("~/Content/css")
+</head>
+<body>
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

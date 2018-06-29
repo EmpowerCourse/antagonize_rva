@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "Hello from Winston-Salem";
+}
+<div class="row" id="page-content" style="display:none;">
+</div>
+
+<div id="start-div">
+    <button id="start-button" class="btn btn-lg btn-warning">Start</button>
+</div>
+
+<div id="intro" style="display:none;">
+    Shall
+</div>
+
+<script type="text/x-handlebars-template" id="box-template">
+{{#each msg}}
+    <div class="selection col-xs-4" data-seq="{{seq}}">
+        <div title="{{title}}" data-toggle="tooltip" data-placement="right">
+            {{seq}}
+        </div>
+    </div>
+{{/each}}
+</script>
+
+@section scripts {
+<script type="text/javascript">
+    $(document).ready(function () {
+        $.ajaxSetup({
+            dataType: 'json',
+            cache: false
+        });
+        EMP.PlayWav("/Content/odds_in_favor.wav");
+        EMP.RenderRandomBlocks();
+        EMP.BindSelectionClick();
+        $('#start-button').click(function () {
+            EMP.PlayWav("/Content/shall_we_play.wav");
+            EMP.GoFullscreen();
+            $('div#start-div').hide();
+            $('div#intro').show();
+            EMP.ShowIntro(function () {
+                $('div#page-content').show();
+            });
+        });
+    });
+</script>
+}

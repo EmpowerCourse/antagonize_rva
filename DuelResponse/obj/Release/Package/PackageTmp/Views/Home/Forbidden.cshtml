@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "No Access!";
+}
+
+<div class="row">
+    <div class="col-xs-12">
+        <h2>You have been forbidden.  Don't take it personally.  We probably got this wrong because we don't know you.</h2>
+    </div>
+</div>
+
+@section scripts {
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $('body').css({ 'background-color': '#FF0000', 'color': '#FFFFFF'});
+    });
+    </script>
+}

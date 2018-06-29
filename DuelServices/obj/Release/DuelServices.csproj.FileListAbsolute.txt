@@ -1,0 +1,16 @@
+K:\Projects\empower\duel\DuelServices\bin\Release\DuelServices.dll
+K:\Projects\empower\duel\DuelServices\bin\Release\DuelServices.pdb
+K:\Projects\empower\duel\DuelServices\bin\Release\itextsharp.dll
+K:\Projects\empower\duel\DuelServices\bin\Release\Microsoft.IdentityModel.Logging.dll
+K:\Projects\empower\duel\DuelServices\bin\Release\Microsoft.IdentityModel.Tokens.dll
+K:\Projects\empower\duel\DuelServices\bin\Release\Newtonsoft.Json.dll
+K:\Projects\empower\duel\DuelServices\bin\Release\System.IdentityModel.Tokens.Jwt.dll
+K:\Projects\empower\duel\DuelServices\bin\Release\Twilio.dll
+K:\Projects\empower\duel\DuelServices\bin\Release\itextsharp.xml
+K:\Projects\empower\duel\DuelServices\bin\Release\Microsoft.IdentityModel.Tokens.xml
+K:\Projects\empower\duel\DuelServices\bin\Release\Newtonsoft.Json.xml
+K:\Projects\empower\duel\DuelServices\bin\Release\System.IdentityModel.Tokens.Jwt.xml
+K:\Projects\empower\duel\DuelServices\bin\Release\Twilio.xml
+K:\Projects\empower\duel\DuelServices\obj\Release\DuelServices.dll
+K:\Projects\empower\duel\DuelServices\obj\Release\DuelServices.pdb
+K:\Projects\empower\duel\DuelServices\obj\Release\DuelServices.csprojResolveAssemblyReference.cache

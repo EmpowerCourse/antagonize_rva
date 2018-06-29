@@ -1,0 +1,4 @@
+<Response>
+	<Say voice="alice">Hi Richmond, you know not what you've started.</Say>
+	<Play>https://s3.amazonaws.com/empower.duel/banana_phone_fast.mp3</Play>
+</Response>

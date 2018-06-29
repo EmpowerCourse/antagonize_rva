@@ -1,0 +1,95 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #000000;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+div.selection {
+    width: 320px;
+    height: 320px;
+    padding: 90px 0;
+    border: dashed 4px #333333;
+    margin: 15px;
+    float: left;
+    border-radius: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+div.selection:hover {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: solid 4px #FFFFFF;
+}
+div.selection div {
+    margin: 0 auto;
+    padding: 30px 20px;
+    font-size: 50pt;
+    font-family: Verdana;
+    font-weight: bold;
+}
+div#intro {
+    padding: 200px 0;
+    font-size: 86pt;
+    color: #000000;
+    font-family: 'Lucida Console';
+    font-weight: bold;
+    text-align: center;
+    background-color: forestgreen;
+    width: 900px;
+    height: 600px;
+}
+div.tooltip {
+    opacity: 1.0 !important;
+}
+div.tooltip-inner {
+    font-size: 16pt !important;
+    background-color: #0c3d67;
+}
+div#start-div {
+    text-align: center;
+}
+button#start-button {
+    font-size: 50pt;
+    font-weight: bold;
+    font-family: Verdana;
+    padding: 80px 150px;
+    border-radius: 25px;
+    margin: 200px auto;
+}
+form#login-form input {
+    font-size: 44pt;
+    border-style: none;
+}
+form#login-form #username {
+    width: 300px;
+}
+form#login-form #go {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #00FF00;
+}
+h2 {
+    font-weight: bold;
+    font-size: 60pt;
+    color: #ffd800;
+}
